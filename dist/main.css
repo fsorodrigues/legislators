@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700|Roboto+Slab:400,700);
+.fake-header {
+    height: 90px;
+    background-color: lightblue;
+}
+
+.content {
+    height: 600px;
+}
+
+.d3-node {
+    float: left;
+}
+
+.map-container {
+    margin-top: 2rem;
+    width: 55%;
+}
+
+@media (max-width:600px) {
+    .map-container {
+        width: 100%;
+    }
+}
+
+.tooltip-container {
+    background-color: #F5F5F5;
+    width: 190px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.d3-btn {
+    background-color: gainsboro;
+    border: none;
+    font-size: 0.8rem;
+    font-variant: small-caps;
+    font-weight: 300;
+    padding: 1rem 1rem;
+}
+
+.d3-active {
+    background-color: grey;
+    font-weight: 700;
+}
+
+.tooltip-container {
+    font-family: "Roboto", Verdana, sans-serif;
+}
+
+.d3-loc-tooltip {
+    font-size: 0.7rem;
+    color: grey;
+    margin: 0.5rem 0.3rem 0.5rem 0.3rem;
+}
+
+.d3-name-tooltip {
+    font-size: 1rem;
+    margin: 0.5rem 0.3rem 0.5rem 0.3rem;
+}
+
+.d3-name-tooltip span.party {
+    font-size: 0.8rem;
+    margin: 0 0 0 0.2rem;
+    padding: 0.2rem 0.5rem 0.1rem 0.5rem;
+}
+
+.d3-name-tooltip .democratic {
+    background-color: #3574B2;
+}
+
+.d3-name-tooltip .progressive {
+    background-color: #9BC53D
+}
+
+.d3-name-tooltip .independent {
+    background-color: #F4D107
+}
+
+.d3-name-tooltip .republican {
+    background-color: #C3423F
+}
+

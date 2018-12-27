@@ -1,0 +1,30 @@
+.fake-header {
+    height: 90px;
+    background-color: lightblue;
+}
+
+.content {
+    height: 600px;
+}
+
+.d3-node {
+    float: left;
+}
+
+.map-container {
+    margin-top: 2rem;
+    width: 55%;
+}
+
+@media (max-width:600px) {
+    .map-container {
+        width: 100%;
+    }
+}
+
+.tooltip-container {
+    background-color: #F5F5F5;
+    width: 190px;
+    position: absolute;
+    pointer-events: none;
+}

@@ -1,0 +1,13 @@
+.d3-btn {
+    background-color: gainsboro;
+    border: none;
+    font-size: 0.8rem;
+    font-variant: small-caps;
+    font-weight: 300;
+    padding: 1rem 1rem;
+}
+
+.d3-active {
+    background-color: grey;
+    font-weight: 700;
+}

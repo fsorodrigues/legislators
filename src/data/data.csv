@@ -1,0 +1,181 @@
+chamber,candidate_name,district,party,slug,status
+House,Amy Sheldon,Addison-1,Democratic,amy-sheldon,ok
+House,Robin Scheu,Addison-1,Democratic,robin-scheu,ok
+House,Peter Conlon,Addison-2,Democratic,peter-conlon,ok
+House,Matt Birong,Addison-3,Democratic,matt-birong,ok
+House,Diane Lanpher,Addison-3,Democratic,diane-lanpher,ok
+House,Mari Cordes,Addison-4,Democratic,mari-cordes,ok
+House,Caleb Elder,Addison-4,Democratic,caleb-elder,ok
+House,Harvey T. Smith,Addison-5,Republican,harvey-t.-smith,ok
+House,Terry Norris,Addison-Rutland,Independent,terry-norris,ok
+House,Nelson Brownell,Bennington-1,Democratic,nelson-brownell,ok
+House,Timothy R. Corcoran II,Bennington-2-1,Democratic,timothy-r.-corcoran-ii,ok
+House,Chris Bates,Bennington-2-1,Democratic,chris-bates,ok
+House,Jim Carroll,Bennington-2-2,Democratic,jim-carroll,ok
+House,Mary A. Morrissey,Bennington-2-2,Republican,mary-a.-morrissey,ok
+House,David K. Durfee,Bennington-3,Democratic,david-k-durfee,ok
+House,Cynthia Browning,Bennington-4,Democratic,cynthia-browning,ok
+House,Kathleen James,Bennington-4,Democratic,kathleen-james,ok
+House,Linda Joy Sullivan,Bennington-Rutland,Democratic,linda-joy-sullivan,ok
+House,Marcia Robinson Martel,Caledonia-1,Republican,marcia-robinson-martel,ok
+House,Chip Troiano,Caledonia-2,Democratic,chip-troiano,ok
+House,Scott Campbell,Caledonia-3,Democratic,scott-campbell,ok
+House,Scott Beck,Caledonia-3,Republican,scott-beck,ok
+House,"Martha ""Marty"" Feltus",Caledonia-4,Republican,mary-feltus,ok
+House,Patrick Seymour,Caledonia-4,Republican,patrick-seymour,ok
+House,"Catherine ""Kitty"" Toll",Caledonia-Washington,Democratic,kitty-toll,ok
+House,Marcia Lawrence Gardner,Chittenden-1,Democratic,marcia-lawrence-gardner,ok
+House,John Palasik,Chittenden-10,Republican,john-palasik,ok
+House,Christopher Mattos,Chittenden-10,Republican,christopher-mattos,ok
+House,Jim McCullough,Chittenden-2,Democratic,jim-mccullough,ok
+House,Terry Macaig,Chittenden-2,Democratic,terry-macaig,ok
+House,Trevor Squirrell,Chittenden-3,Democratic,trevor-squirrell,ok
+House,George Till,Chittenden-3,Democratic,george-till,ok
+House,Michael Yantachka,Chittenden-4-1,Democratic,michael-yantachka,ok
+House,Bill Lippert,Chittenden-4-2,Democratic,bill-lippert,ok
+House,Kate Webb,Chittenden-5-1,Democratic,kate-webb,ok
+House,Jessica Brumsted,Chittenden-5-2,Democratic,jessica-brumsted,ok
+House,Carol Ode,Chittenden-6-1,Democratic,carol-ode,ok
+House,Robert Hooper,Chittenden-6-1,Democratic,robert-hooper,ok
+House,Jean O'Sullivan,Chittenden-6-2,Democratic,jean-o'sullivan,ok
+House,Jill Krowinski,Chittenden-6-3,Democratic,jill-krowinski,ok
+House,Curt McCormack,Chittenden-6-3,Democratic,curt-mccormack,ok
+House,Selene Colburn,Chittenden-6-4,Progressive,selene-colburn,ok
+House,Brian Cina,Chittenden-6-4,Progressive,brian-cina,ok
+House,Mary M. Sullivan,Chittenden-6-5,Democratic,mary-m.-sullivan,ok
+House,Johannah Leddy Donovan,Chittenden-6-5,Democratic,johannah-leddy-donovan,ok
+House,Barbara Rachelson,Chittenden-6-6,Democratic,barbara-rachelson,ok
+House,"Clement ""Clem"" Bissonnette",Chittenden-6-7,Democratic,clem-bissonnette,FALSE
+House,Diana Gonzalez,Chittenden-6-7,Progressive,diana-gonzalez,ok
+House,Martin Lalonde,Chittenden-7-1,Democratic,martin-lalonde,ok
+House,Ann Pugh,Chittenden-7-2,Democratic,ann-pugh,ok
+House,John Killacky,Chittenden-7-3,Democratic,john-killacky,ok
+House,Maida F. Townsend,Chittenden-7-4,Democratic,maida-f.-townsend,ok
+House,Marybeth Redmond,Chittenden-8-1,Democratic,marybeth-redmond,ok
+House,Linda K. Myers,Chittenden-8-1,Republican,linda-k.-myers,ok
+House,Lori Houghton,Chittenden-8-2,Democratic,lori-houghton,ok
+House,Dylan Giambatista,Chittenden-8-2,Democratic,dylan-giambatista,ok
+House,Robert L. Bancroft,Chittenden-8-3,Republican,robert-l.-bancroft,ok
+House,Curt Taylor,Chittenden-9-1,Democratic,curt-taylor,ok
+House,Seth Chase,Chittenden-9-1,Democratic,seth-chase,ok
+House,Sarita Austin,Chittenden-9-2,Democratic,sarita-austin,ok
+House,Patrick Brennan,Chittenden-9-2,Republican,patrick-brennan,ok
+House,Connie Quimby,Essex-Caledonia,Republican,connie-quimby,ok
+House,Paul D. Lefebvre,Essex-Caledonia-Orleans,Republican,paul-d.-lefebvre,ok
+House,Carl Rosenquist,Franklin-1,Republican,carl-rosenquist,ok
+House,Barbara Smith Murphy,Franklin-2,Independent,barbara-smith-murphy,ok
+House,Mike McCarthy,Franklin-3-1,Democratic,mike-mccarthy,ok
+House,Casey Toof,Franklin-3-1,Republican,casey-toof,ok
+House,"Eileen ""Lynn"" Dickinson",Franklin-3-2,Republican,lynn-dickinson,ok
+House,Brian K. Savage,Franklin-4,Republican,brian-k-savage,ok
+House,Marianna Gamache,Franklin-4,Republican,marianna-gamache,ok
+House,Charen Fegard,Franklin-5,Democratic,charen-fegard,ok
+House,Joshua C. Aldrich,Franklin-5,Republican,joshua-c.-aldrich,ok
+House,James Gregoire,Franklin-6,Republican,james-gregoire,ok
+House,Felisha Leffler,Franklin-7,Republican,felisha-leffler,ok
+House,Mitzi Johnson,Grand Isle-Chittenden,Democratic,mitzi-johnson,ok
+House,Leland J. Morgan,Grand Isle-Chittenden,Republican,leland-j.-morgan,ok
+House,Heidi E. Scheuermann,Lamoille-1,Republican,heidi-e.-scheuermann,ok
+House,Daniel Noyes,Lamoille-2,Democratic,daniel-noyes,ok
+House,Matt Hill,Lamoille-2,Democratic,matt-hill,ok
+House,Lucy Rogers,Lamoille-3,Democratic,lucy-rogers,ok
+House,David Yacovone,Lamoille-Washington,Democratic,david-yacovone,ok
+House,Avram Patt,Lamoille-Washington,Democratic,avram-pratt,FALSE
+House,Carl Demrow,Orange-1,Democratic,carl-demrow,ok
+House,Rodney Graham,Orange-1,Republican,rodney-graham,ok
+House,Sarah Copeland Hanzas,Orange-2,Democratic,sarah-copeland-hanzas,ok
+House,Chip Conquest,Orange-Caledonia,Democratic,chip-conquest,ok
+House,Jay Hooper,Orange-Washington-Addison,Democratic,jay-hooper,ok
+House,Ben Jickling,Orange-Washington-Addison,Independent,ben-jickling,ok
+House,Brian Smith,Orleans-1,Republican,brian-smith,ok
+House,Lynn D. Batchelor,Orleans-1,Republican,lynn-d.-batchelor,ok
+House,Michael J. Marcotte,Orleans-2,Republican,michael-j.-marcotte,ok
+House,"Woodman ""Woody"" H. Page",Orleans-2,Republican,woody-page,ok
+House,Sam Young,Orleans-Caledonia,Democratic,sam-young,ok
+House,Vicki Strong,Orleans-Caledonia,Republican,vicki-strong,ok
+House,Mark Higley,Orleans-Lamoille,Republican,mark-higley,ok
+House,Patricia A. McCoy,Rutland-1,Republican,patricia-a.-mccoy,ok
+House,Dave Potter,Rutland-2,Democratic,dave-potter,ok
+House,"Thomas ""Tom"" Burditt",Rutland-2,Republican,tom-burditt,ok
+House,"William ""Bill"" Canfield",Rutland-3,Republican,bill-canfield,ok
+House,"Robert ""Bob"" Helm",Rutland-3,Republican,bob-helm,ok
+House,Thomas Terenzini,Rutland-4,Republican,thomas-terenzini,ok
+House,Peter J. Fagan,Rutland-5-1,Republican,peter-j.-fagan,ok
+House,"Larry ""Cooper"" Cupoli",Rutland-5-2,Republican,cooper-cupoli,ok
+House,Mary E. Howard,Rutland-5-3,Democratic,mary-e.-howard,ok
+House,William Notte,Rutland-5-4,Democratic,william-notte,ok
+House,Stephanie Jerome,Rutland-6,Democratic,stephanie-jerome,ok
+House,"Charles ""Butch"" Shaw",Rutland-6,Republican,butch-shaw,ok
+House,Robin Chesnut-Tangerman,Rutland-Bennington,Progressive,robin-chesnut-tangerman,ok
+House,James Harrison,Rutland-Windsor-1,Republican,james-harrison,ok
+House,Logan Nicoll,Rutland-Windsor-2,Democratic,logan-nicoll,ok
+House,Anne B. Donahue,Washington-1,Republican,anne-b.-donahue,ok
+House,Kenneth W. Goslant,Washington-1,Republican,kenneth-w.-goslant,ok
+House,"Francis ""Topper"" McFaun",Washington-2,Republican,topper-mcfaun,ok
+House,Rob LaClair,Washington-2,Republican,rob-laclair,ok
+House,Tommy J. Walz,Washington-3,Democratic,tommy-j.-walz,ok
+House,Peter D. Anthony,Washington-3,Democratic,peter-d.-anthony,ok
+House,Mary S. Hooper,Washington-4,Democratic,mary-s.-hooper,ok
+House,Warren Kitzmiller,Washington-4,Democratic,warren-kitzmiller,ok
+House,Kimberly Jessup,Washington-5,Democratic,kimberly-jessup,ok
+House,Janet Ancel,Washington-6,Democratic,janet-ancel,ok
+House,Maxine Grad,Washington-7,Democratic,maxine-grad,ok
+House,Kari Dolan,Washington-7,Democratic,kari-dolan,ok
+House,Theresa Wood,Washington-Chittenden,Democratic,theresa-wood,ok
+House,Thomas Stevens,Washington-Chittenden,Democratic,thomas-stevens,ok
+House,Sara Coffey,Windham-1,Democratic,sara-coffey,ok
+House,Emilie Kornheiser,Windham-2-1,Democratic,emilie-kornheiser,ok
+House,Mollie S. Burke,Windham-2-2,Progressive,mollie-s.-burke,ok
+House,Tristan Toleno,Windham-2-3,Democratic,tristan-toleno,ok
+House,Carolyn W. Partridge,Windham-3,Democratic,carolyn-w.-partridge,ok
+House,Matthew A. Trieber,Windham-3,Democratic,matthew-a.-trieber,ok
+House,Mike Mrowicki,Windham-4,Democratic,mike-mrowicki,ok
+House,Nader Hashim,Windham-4,Democratic,nader-hashim,ok
+House,Emily Long,Windham-5,Democratic,emily-long,ok
+House,John Gannon,Windham-6,Democratic,john-gannon,ok
+House,Laura Sibilia,Windham-Bennington,Independent,laura-sibilia,ok
+House,Kelly M. Pajala,Windham-Bennington-Windsor,Independent,kelly-m.-pajala,ok
+House,John Bartholomew,Windsor-1,Democratic,john-bartholomew,ok
+House,Zachariah Ralph,Windsor-1,Progressive,zachariah-ralph,ok
+House,Annmarie Christensen,Windsor-2,Democratic,annmarie-christensen,ok
+House,Thomas A. Bock,Windsor-3-1,Democratic,thomas-a.-bock,ok
+House,Alice M. Emmons,Windsor-3-2,Democratic,alice-m.-emmons,ok
+House,"Robert ""Bob"" Forguites",Windsor-3-2,Democratic,bob-forguites,ok
+House,Randall Szott,Windsor-4-1,Democratic,randall-szott,ok
+House,Rebecca White,Windsor-4-2,Democratic,rebecca-white,ok
+House,"Kevin ""Coach"" Christie",Windsor-4-2,Democratic,coach-christie,ok
+House,Charlie Kimbell,Windsor-5,Democratic,charlie-kimbell,ok
+House,John O'Brien,Windsor-Orange-1,Democratic,john-o'brien,ok
+House,Tim Briglin,Windsor-Orange-2,Democratic,tim-briglin,ok
+House,Jim Masland,Windsor-Orange-2,Democratic,jim-masland,ok
+House,Sandy Haas,Windsor-Rutland,Progressive,sandy-haas,ok
+Senate,Ruth Hardy,Addison,Democratic,ruth-hardy,ok
+Senate,Christopher Bray,Addison,Democratic,christopher-bray,ok
+Senate,Dick Sears,Bennington,Democratic,dick-sears,ok
+Senate,Brian Campion,Bennington,Democratic,brian-campion,ok
+Senate,Jane Kitchel,Caledonia,Democratic,jane-kitchel,ok
+Senate,Joe Benning,Caledonia,Republican,joe-benning,ok
+Senate,Tim Ashe,Chittenden,Democratic,tim-ashe,ok
+Senate,Phil Baruth,Chittenden,Democratic,phil-baruth,ok
+Senate,"Virginia ""Ginny"" Lyons",Chittenden,Democratic,ginny-lyons,ok
+Senate,Debbie Ingram,Chittenden,Democratic,debbie-ingram,ok
+Senate,Michael Sirotkin,Chittenden,Democratic,michael-sirotkin,ok
+Senate,Christopher A. Pearson,Chittenden,Progressive,christopher-a.-pearson,ok
+Senate,Robert A. Starr,Essex-Orleans,Democratic,robert-a.-starr,ok
+Senate,John S. Rodgers,Essex-Orleans,Democratic,john-s.-rodgers,ok
+Senate,Randy Brock,Franklin,Republican,randy-brock,ok
+Senate,Corey Parent,Franklin,Republican,corey-parent,ok
+Senate,"Richard ""Dick"" Mazza",Grand Isle,Democratic,dick-mazza,ok
+Senate,Richard A. Westman,Lamoille,Republican,richard-a.-westman,ok
+Senate,Mark A. MacDonald,Orange,Democratic,mark-a.-macdonald,ok
+Senate,Cheryl Hooker,Rutland,Democratic,cheryl-hooker,ok
+Senate,"Brian ""BC"" Collamore",Rutland,Republican,bc-collamore,ok
+Senate,James L. McNeil,Rutland,Republican,james-l.-mcneil,ok
+Senate,Andrew Perchlik,Washington,Democratic,andrew-perchlik,ok
+Senate,Ann Cummings,Washington,Democratic,ann-cummings,ok
+Senate,Anthony Pollina,Washington,Progressive,anthony-pollina,ok
+Senate,Becca Balint,Windham,Democratic,becca-balint,ok
+Senate,Jeanette White,Windham,Democratic,jeanette-white,ok
+Senate,"Richard ""Dick"" McCormack",Windsor,Democratic,dick-mccormack,ok
+Senate,Alison H. Clarkson,Windsor,Democratic,alison-h.-clarkson,ok
+Senate,Alice W. Nitka,Windsor,Democratic,alice-w.-nitka,ok
