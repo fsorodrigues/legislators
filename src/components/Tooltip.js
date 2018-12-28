@@ -10,16 +10,17 @@ import '../style/typography.css';
 function Tooltip() {
 
     //
-    let _mouse = {left:0,top:0};
-    let _parentDimensions = {width:200,height:500};
+    let _mouse = {x:0,y:0};
+    let _parentWidth = 200;
 
     function exports(data) {
-        console.log(_parentDimensions);
 
         // access to root elements
         const root = this;
         const container = select(this);
         const containerWidth = root.clientWidth;
+        const docWidth = document.body.clientWidth;
+        const docHeight = document.body.clientHeight;
 
         // appending text to tooltip
         let nameTootipUpdate = container.selectAll('.d3-name-tooltip')
@@ -42,43 +43,38 @@ function Tooltip() {
         locTootipUpdate = locTootipUpdate.merge(locTootipEnter)
             .text(d => `${chamberDict[d.chamber]} ${d.district}`);
 
+        const containerHeight = root.clientHeight;
+
         // handling positions
         // horizontal position
-        if (_mouse.left > _parentDimensions.width/2) {
-            console.log(_mouse.left)
+        if (_mouse.x > _parentWidth/2) {
+            const padd = docWidth - _parentWidth;
             container.style('left',``)
-                .style('right', `${_parentDimensions.width - _mouse.left}px`);
+                .style('right', `${padd + (_parentWidth - _mouse.x)}px`);
         } else {
-            container.style('left',`${_mouse.left}px`)
+            container.style('left',`${_mouse.x}px`)
                 .style('right', ``);
-
         }
 
-        if (_mouse.top > 3*_parentDimensions.height/4) {
-            console.log("here");
-            container.style('top',`${_mouse.top}px`)
-                .style('bottom', ``);
-
+        // vertical position
+        if (_mouse.y > docHeight/2) {
+            container.style('top',`${_mouse.y - containerHeight}px`);
         } else {
-            container.style('top',`${_mouse.top}px`)
-                .style('bottom', ``);
+            container.style('top',`${_mouse.y}px`);
         }
-
-
-
 
     }
 
     exports.mouse = function(_) {
         // _ expects an object with t,r,b,l properties
         if (_ === 'undefined') return _mouse;
-        [_mouse.left,_mouse.top] = _;
+        [_mouse.x,_mouse.y] = _;
         return this;
     };
 
-    exports.parentDimensions = function(_) {
-        if (_ === 'undefined') return _parentDimensions;
-        [_parentDimensions.width,_parentDimensions.height] = _;
+    exports.parentWidth = function(_) {
+        if (_ === 'undefined') return _parentWidth;
+        _parentWidth = _;
         return this;
     };
 

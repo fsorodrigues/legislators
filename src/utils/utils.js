@@ -32,6 +32,6 @@ export const partyDict = {
 };
 
 export const chamberDict = {
-	House: "Representative",
-	Senate: "Senator"
+	House: "Rep.",
+	Senate: "Sen."
 };

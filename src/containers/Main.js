@@ -1,5 +1,6 @@
 // importing d3 modules
 import {select,mouse} from "d3-selection";
+import {transition} from "d3-transition";
 
 // importing util functions
 import {getLength} from "../utils/utils";
@@ -58,15 +59,6 @@ function Main(_) {
         btnUpdate = btnUpdate.merge(btnEnter)
             .each(controller);
 
-        // // DUMMY DATA
-        // const dataset = [];
-        // for (const i of Array(30).keys()) {
-        //     dataset.push(data[1]);
-        // }
-        // for (const i of Array(150).keys()) {
-        //     dataset.push(data[0]);
-        // }
-
         // filtering data by chamber
         const filterData = data.filter(d => d.chamber === _defaultChamber);
 
@@ -79,7 +71,8 @@ function Main(_) {
             .data([filterData]);
         const mapEnter = mapUpdate.enter()
             .append('div')
-            .classed('map-container',true);
+            .classed('map-container',true)
+            .classed('clearfix',true);
         mapUpdate.exit().remove();
         mapUpdate = mapUpdate.merge(mapEnter)
             .each(squares);
@@ -108,18 +101,43 @@ function Main(_) {
                 .each(squares);
         });
 
-        tooltip.parentDimensions([mapUpdate.node().clientWidth,mapUpdate.node().clientHeight]);
+        // enter node
+        tooltip.parentWidth(mapUpdate.node().clientWidth);
+        squares.on('node:enter',function(d,i) {
+            const thisEl = select(this);
+            const thisClass = thisEl.attr('class');
 
-        squares.on('node:enter',function(d) {
-            // console.log(this);
+            mapUpdate.selectAll(`.${thisClass}`)
+                .filter((e,l) => l !== i)
+                .transition()
+                .duration(200)
+                .style('opacity', 0.6);
+
+            thisEl.style('opacity', 1);
+
         })
+        // toggle tooltip
         .on('tooltip:toggle',function(d) {
             tooltip.mouse(mouse(document.body));
             tooltipUpdate.data([d])
                 .each(tooltip);
+        })
+        // leave node
+        .on('node:leave',function(d) {
+            const thisEl = select(this);
+            const thisClass = thisEl.attr('class');
+
+            mapUpdate.selectAll(`.${thisClass}`)
+                .transition()
+                .duration(100)
+                .style('opacity', 1);
+        })
+        // untoggle tooltip
+        .on('tooltip:untoggle',function(d) {
+            tooltip.mouse([-100,-100]);
+            tooltipUpdate.data([d])
+                .each(tooltip);
         });
-
-
 
     }
 

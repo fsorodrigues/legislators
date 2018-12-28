@@ -11,6 +11,8 @@ function Squares(_) {
     let _margin = {t:0, r:0, b:0, l:0};
     let _spacing = 1;
     let _rowLength = 14;
+    let _nodeSize;
+    let _n;
 
     const dispatcher = dispatch('tooltip:toggle','tooltip:untoggle','node:enter','node:leave');
 
@@ -29,6 +31,8 @@ function Squares(_) {
 
         // calculating node size according to configs
         const nodeSize = ((w - ((_rowLength-2) * _spacing)) / _rowLength)-0.5;
+        _nodeSize = nodeSize;
+        _n = data.length;
 
         // sorting data, happens in place
         data.sort((a,b) => a.party.localeCompare(b.party));
@@ -50,12 +54,14 @@ function Squares(_) {
         nodeUpdate.exit().remove();
         nodeUpdate = nodeUpdate.merge(nodeEnter)
             .style('background-color',d => partyDict[d.party])
-            .on('mouseenter', function(d) {
-                dispatcher.call('node:enter',this,null);
+            .style('opacity',1)
+            .on('mouseenter', function(d,i) {
+                dispatcher.call('node:enter',this,d,i);
                 dispatcher.call('tooltip:toggle',this,d);
             })
             .on('mouseleave', function(d) {
                 dispatcher.call('node:leave',this,null);
+                dispatcher.call('tooltip:untoggle',this,d);
             })
             .transition()
             .duration(100)
@@ -88,6 +94,11 @@ function Squares(_) {
         if (_ === 'undefined') return _rowLength;
         _rowLength = _;
         return this;
+    };
+
+    exports.getHeight = function() {
+        const n = Math.ceil(_n / _rowLength);
+        return n * _nodeSize + (n - 2) * _spacing;
     };
 
     exports.on = function(event,cb) {
